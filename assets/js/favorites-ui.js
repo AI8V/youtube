@@ -98,6 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const favoriteElement = createFavoriteElement(video);
             favoritesContainer.appendChild(favoriteElement);
         });
+         updateFavoritesEmptyState();
     }
     
     favButton.addEventListener('click', () => {

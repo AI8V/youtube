@@ -44,25 +44,33 @@ document.addEventListener('DOMContentLoaded', () => {
         colElement.appendChild(figure);
         
         figure.addEventListener('click', (e) => {
-            if (e.target === removeButton || e.target.closest('.remove-favorite')) {
-                e.stopPropagation();
-                if (window.favoritesManager.removeFavorite(video.id)) {
-                    colElement.remove();
-                    updateFavoritesEmptyState();
-                }
-            } else {
-                const modalElement = document.querySelector('.video-modal');
-                const modal = new bootstrap.Modal(modalElement);
-                const modalIframe = modalElement.querySelector('iframe');
-                const modalTitle = modalElement.querySelector('.modal-title');
-                const modalDescription = modalElement.querySelector('.modal-body p');
-                
-                modalIframe.src = `https://www.youtube.com/embed/${video.id}?autoplay=1`;
-                modalTitle.textContent = video.title;
-                modalDescription.innerHTML = `تشاهد الآن: ${video.title} <span class="badge bg-secondary">${video.category}</span>`;
-                modal.show();
-            }
-        });
+    if (e.target === removeButton || e.target.closest('.remove-favorite')) {
+        e.stopPropagation();
+        if (window.favoritesManager.removeFavorite(video.id)) {
+            colElement.remove();
+            updateFavoritesEmptyState();
+        }
+    } else {
+        // إغلاق مودال المفضلات أولاً
+        const favoritesModalElement = document.getElementById('favoritesModal');
+        const favoritesModalInstance = bootstrap.Modal.getInstance(favoritesModalElement);
+        favoritesModalInstance.hide();
+        
+        // ثم بعد ذلك فتح مودال الفيديو
+        setTimeout(() => {
+            const modalElement = document.querySelector('.video-modal');
+            const modal = new bootstrap.Modal(modalElement);
+            const modalIframe = modalElement.querySelector('iframe');
+            const modalTitle = modalElement.querySelector('.modal-title');
+            const modalDescription = modalElement.querySelector('.modal-body p');
+            
+            modalIframe.src = `https://www.youtube.com/embed/${video.id}?autoplay=1`;
+            modalTitle.textContent = video.title;
+            modalDescription.innerHTML = `تشاهد الآن: ${video.title} <span class="badge bg-secondary">${video.category}</span>`;
+            modal.show();
+        }, 150); // انتظار لحظة قصيرة للتأكد من إغلاق المودال الأول
+    }
+});
         
         return colElement;
     }

@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: "l0NtUxBnbzo", title: "فيديو تعليمي 11", category: "لغة عربية" },
         { id: "EK_LN3XEcnw", title: "فيديو تعليمي 12", category: "رياضيات" },
         { id: "JGwWNGJdvx8", title: "فيديو تعليمي 13", category: "تاريخ" },
-        { id: "kJQP7kiw5Fk", title: "فيديو تعليمي 14", category: "علوم" },
+        { id: "kJQP7kiw5Fk", title: "فيديو تعليمي 14", category: "سياسة" },
         { id: "RgKAFK5djSk", title: "فيديو تعليمي 15", category: "رياضيات" },
         { id: "U3ASj1L6_sY", title: "فيديو تعليمي 16", category: "لغة عربية" },
         { id: "31CnPqxVZiw", title: "فيديو تعليمي 17", category: "تاريخ" },
@@ -24,9 +24,97 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: "y6120QOlsfU", title: "فيديو تعليمي 22", category: "علوم" },
         { id: "aQUlA8Hcv4s", title: "فيديو تعليمي 23", category: "رياضيات" },
         { id: "vx2u5uUu3DE", title: "فيديو تعليمي 24", category: "لغة عربية" },
+        { id: "odGTd-O3RO8", title: "فيديو تعليمي 1", category: "رياضيات" },
+        { id: "CCiWWTHz-ZY", title: "فيديو تعليمي 2", category: "علوم" },
+        { id: "r9OxY05qszE", title: "فيديو تعليمي 3", category: "لغة عربية" },
+        { id: "dQw4w9WgXcQ", title: "فيديو تعليمي 4", category: "رياضيات" },
+        { id: "ZZ5LpwO-An4", title: "فيديو تعليمي 5", category: "علوم" },
+        { id: "djV11Xbc914", title: "فيديو تعليمي 6", category: "تاريخ" },
+        { id: "btPJPFnesV4", title: "فيديو تعليمي 7", category: "لغة عربية" },
+        { id: "YR5ApYxkU-U", title: "فيديو تعليمي 8", category: "رياضيات" },
+        { id: "pAgnJDJN4VA", title: "فيديو تعليمي 9", category: "تاريخ" },
+        { id: "fJ9rUzIMcZQ", title: "فيديو تعليمي 10", category: "علوم" },
+        { id: "l0NtUxBnbzo", title: "فيديو تعليمي 11", category: "لغة عربية" },
+        { id: "EK_LN3XEcnw", title: "فيديو تعليمي 12", category: "رياضيات" },
+        { id: "JGwWNGJdvx8", title: "فيديو تعليمي 13", category: "تاريخ" },
+        { id: "kJQP7kiw5Fk", title: "فيديو تعليمي 14", category: "سياسة" },
+        { id: "RgKAFK5djSk", title: "فيديو تعليمي 15", category: "رياضيات" },
+        { id: "U3ASj1L6_sY", title: "فيديو تعليمي 16", category: "لغة عربية" },
+        { id: "31CnPqxVZiw", title: "فيديو تعليمي 17", category: "تاريخ" },
+        { id: "8SbUC-UaAxE", title: "فيديو تعليمي 18", category: "علوم" },
+        { id: "YVkUvmDQ3HY", title: "فيديو تعليمي 19", category: "رياضيات" },
+        { id: "6Ejga4kJUts", title: "فيديو تعليمي 20", category: "لغة عربية" },
+        { id: "ALZHF5UqnU4", title: "فيديو تعليمي 21", category: "تاريخ" },
+        { id: "y6120QOlsfU", title: "فيديو تعليمي 22", category: "علوم" },
+        { id: "aQUlA8Hcv4s", title: "فيديو تعليمي 23", category: "رياضيات" },
+        { id: "vx2u5uUu3DE", title: "فيديو تعليمي 24", category: "لغة عربية" },
+        { id: "odGTd-O3RO8", title: "فيديو تعليمي 1", category: "رياضيات" },
+        { id: "CCiWWTHz-ZY", title: "فيديو تعليمي 2", category: "علوم" },
+        { id: "r9OxY05qszE", title: "فيديو تعليمي 3", category: "لغة عربية" },
+        { id: "dQw4w9WgXcQ", title: "فيديو تعليمي 4", category: "رياضيات" },
+        { id: "ZZ5LpwO-An4", title: "فيديو تعليمي 5", category: "علوم" },
+        { id: "djV11Xbc914", title: "فيديو تعليمي 6", category: "تاريخ" },
+        { id: "btPJPFnesV4", title: "فيديو تعليمي 7", category: "لغة عربية" },
+        { id: "YR5ApYxkU-U", title: "فيديو تعليمي 8", category: "رياضيات" },
+        { id: "pAgnJDJN4VA", title: "فيديو تعليمي 9", category: "تاريخ" },
+        { id: "fJ9rUzIMcZQ", title: "فيديو تعليمي 10", category: "علوم" },
+        { id: "l0NtUxBnbzo", title: "فيديو تعليمي 11", category: "لغة عربية" },
+        { id: "EK_LN3XEcnw", title: "فيديو تعليمي 12", category: "رياضيات" },
+        { id: "JGwWNGJdvx8", title: "فيديو تعليمي 13", category: "تاريخ" },
+        { id: "kJQP7kiw5Fk", title: "فيديو تعليمي 14", category: "سياسة" },
+        { id: "RgKAFK5djSk", title: "فيديو تعليمي 15", category: "رياضيات" },
+        { id: "U3ASj1L6_sY", title: "فيديو تعليمي 16", category: "لغة عربية" },
+        { id: "31CnPqxVZiw", title: "فيديو تعليمي 17", category: "تاريخ" },
+        { id: "8SbUC-UaAxE", title: "فيديو تعليمي 18", category: "علوم" },
+        { id: "YVkUvmDQ3HY", title: "فيديو تعليمي 19", category: "رياضيات" },
+        { id: "6Ejga4kJUts", title: "فيديو تعليمي 20", category: "لغة عربية" },
+        { id: "ALZHF5UqnU4", title: "فيديو تعليمي 21", category: "تاريخ" },
+        { id: "y6120QOlsfU", title: "فيديو تعليمي 22", category: "علوم" },
+        { id: "aQUlA8Hcv4s", title: "فيديو تعليمي 23", category: "رياضيات" },
+        { id: "vx2u5uUu3DE", title: "فيديو تعليمي 24", category: "لغة عربية" },
+        { id: "odGTd-O3RO8", title: "فيديو تعليمي 1", category: "رياضيات" },
+        { id: "CCiWWTHz-ZY", title: "فيديو تعليمي 2", category: "علوم" },
+        { id: "r9OxY05qszE", title: "فيديو تعليمي 3", category: "لغة عربية" },
+        { id: "dQw4w9WgXcQ", title: "فيديو تعليمي 4", category: "رياضيات" },
+        { id: "ZZ5LpwO-An4", title: "فيديو تعليمي 5", category: "علوم" },
+        { id: "djV11Xbc914", title: "فيديو تعليمي 6", category: "تاريخ" },
+        { id: "btPJPFnesV4", title: "فيديو تعليمي 7", category: "لغة عربية" },
+        { id: "YR5ApYxkU-U", title: "فيديو تعليمي 8", category: "رياضيات" },
+        { id: "pAgnJDJN4VA", title: "فيديو تعليمي 9", category: "تاريخ" },
+        { id: "fJ9rUzIMcZQ", title: "فيديو تعليمي 10", category: "علوم" },
+        { id: "l0NtUxBnbzo", title: "فيديو تعليمي 11", category: "لغة عربية" },
+        { id: "EK_LN3XEcnw", title: "فيديو تعليمي 12", category: "رياضيات" },
+        { id: "JGwWNGJdvx8", title: "فيديو تعليمي 13", category: "تاريخ" },
+        { id: "kJQP7kiw5Fk", title: "فيديو تعليمي 14", category: "سياسة" },
+        { id: "RgKAFK5djSk", title: "فيديو تعليمي 15", category: "رياضيات" },
+        { id: "U3ASj1L6_sY", title: "فيديو تعليمي 16", category: "لغة عربية" },
+        { id: "31CnPqxVZiw", title: "فيديو تعليمي 17", category: "تاريخ" },
+        { id: "8SbUC-UaAxE", title: "فيديو تعليمي 18", category: "علوم" },
+        { id: "YVkUvmDQ3HY", title: "فيديو تعليمي 19", category: "رياضيات" },
+        { id: "6Ejga4kJUts", title: "فيديو تعليمي 20", category: "لغة عربية" },
+        { id: "ALZHF5UqnU4", title: "فيديو تعليمي 21", category: "تاريخ" },
+        { id: "y6120QOlsfU", title: "فيديو تعليمي 22", category: "علوم" },
+        { id: "aQUlA8Hcv4s", title: "فيديو تعليمي 23", category: "رياضيات" },
+        { id: "vx2u5uUu3DE", title: "فيديو تعليمي 24", category: "لغة عربية" },
+        { id: "odGTd-O3RO8", title: "فيديو تعليمي 1", category: "رياضيات" },
+        { id: "CCiWWTHz-ZY", title: "فيديو تعليمي 2", category: "علوم" },
+        { id: "r9OxY05qszE", title: "فيديو تعليمي 3", category: "لغة عربية" },
+        { id: "dQw4w9WgXcQ", title: "فيديو تعليمي 4", category: "رياضيات" },
+        { id: "ZZ5LpwO-An4", title: "فيديو تعليمي 5", category: "علوم" },
+        { id: "djV11Xbc914", title: "فيديو تعليمي 6", category: "تاريخ" },
+        { id: "btPJPFnesV4", title: "فيديو تعليمي 7", category: "لغة عربية" },
+        { id: "YR5ApYxkU-U", title: "فيديو تعليمي 8", category: "رياضيات" },
+        { id: "pAgnJDJN4VA", title: "فيديو تعليمي 9", category: "تاريخ" },
+        { id: "fJ9rUzIMcZQ", title: "فيديو تعليمي 10", category: "علوم" },
+        { id: "l0NtUxBnbzo", title: "فيديو تعليمي 11", category: "لغة عربية" },
+        { id: "EK_LN3XEcnw", title: "فيديو تعليمي 12", category: "رياضيات" },
+        { id: "JGwWNGJdvx8", title: "فيديو تعليمي 13", category: "تاريخ" },
+        { id: "kJQP7kiw5Fk", title: "فيديو تعليمي 14", category: "سياسة" },
+        { id: "RgKAFK5djSk", title: "فيديو تعليمي 15", category: "رياضيات" },
+        { id: "U3ASj1L6_sY", title: "فيديو تعليمي 16", category: "لغة عربية" },
+
     ];
 
-    // استخراج التصنيفات الفريدة من الفيديوهات
     const categories = [...new Set(allVideos.map(video => video.category))];
 
     const videosContainer = document.querySelector('.videos-container');
@@ -43,20 +131,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const videosPerPage = 8; 
     let currentPage = 1;
-    let filteredVideos = [...allVideos]; // نسخة من جميع الفيديوهات
-    let searchTerm = ''; // كلمة البحث الحالية
-    let activeCategory = 'all'; // التصنيف النشط حاليًا
+    let filteredVideos = [...allVideos];
+    let searchTerm = ''; 
+    let activeCategory = 'all';
     
-    // إنشاء أزرار التصنيفات
+
     function createCategoryButtons() {
-        // إنشاء زر "الكل"
+
         const allButton = document.createElement('button');
         allButton.className = 'btn btn-outline-primary me-2 mb-2 category-btn active';
         allButton.textContent = 'الكل';
         allButton.dataset.category = 'all';
         categoriesContainer.appendChild(allButton);
         
-        // إنشاء زر لكل تصنيف
         categories.forEach(category => {
             const button = document.createElement('button');
             button.className = 'btn btn-outline-primary me-2 mb-2 category-btn';
@@ -65,35 +152,68 @@ document.addEventListener('DOMContentLoaded', () => {
             categoriesContainer.appendChild(button);
         });
         
-        // إضافة حدث النقر على أزرار التصنيفات
         document.querySelectorAll('.category-btn').forEach(button => {
             button.addEventListener('click', () => {
-                // إزالة الصنف النشط من جميع الأزرار
+
                 document.querySelectorAll('.category-btn').forEach(btn => {
                     btn.classList.remove('active');
                 });
                 
-                // إضافة الصنف النشط للزر المحدد
                 button.classList.add('active');
                 
-                // تحديث التصنيف النشط
                 activeCategory = button.dataset.category;
                 
-                // تحديث القائمة
                 applyFilters();
             });
         });
     }
     
+
+    function loadParamsFromUrl() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const categoryParam = urlParams.get('category');
+        const searchParam = urlParams.get('search');
+        
+        if (categoryParam) {
+            activeCategory = categoryParam;
+
+            document.querySelectorAll('.category-btn').forEach(btn => {
+                btn.classList.remove('active');
+                if (btn.dataset.category === categoryParam) {
+                    btn.classList.add('active');
+                }
+            });
+        }
+        
+        if (searchParam) {
+            searchTerm = searchParam;
+            searchInput.value = searchParam;
+        }
+        
+        if (categoryParam || searchParam) {
+            applyFilters();
+        }
+    }
+    
+
+    window.addEventListener('popstate', function() {
+        loadParamsFromUrl();
+    });
+    
+
+    loadParamsFromUrl();
+
+
+
     function getTotalPages() {
         return Math.ceil(filteredVideos.length / videosPerPage);
     }
 
-    // تطبيق الفلاتر (البحث والتصنيف)
+
     function applyFilters() {
-        // فلترة حسب كلمة البحث والتصنيف
+
         if (activeCategory === 'all') {
-            // البحث فقط في جميع التصنيفات
+
             if (searchTerm === '') {
                 filteredVideos = [...allVideos];
             } else {
@@ -102,7 +222,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 );
             }
         } else {
-            // البحث في التصنيف المحدد
+
             if (searchTerm === '') {
                 filteredVideos = allVideos.filter(video => 
                     video.category === activeCategory
@@ -114,11 +234,27 @@ document.addEventListener('DOMContentLoaded', () => {
                 );
             }
         }
+
+    const urlParams = new URLSearchParams(window.location.search);
+    
+    if (activeCategory !== 'all') {
+        urlParams.set('category', activeCategory);
+    } else {
+        urlParams.delete('category');
+    }
+    
+    if (searchTerm) {
+        urlParams.set('search', searchTerm);
+    } else {
+        urlParams.delete('search');
+    }
+    
+    const newUrl = window.location.pathname + (urlParams.toString() ? '?' + urlParams.toString() : '');
+    window.history.pushState({ path: newUrl }, '', newUrl);
+
         
-        // إعادة تعيين رقم الصفحة الحالية
         currentPage = 1;
         
-        // عرض النتائج
         displayVideosForCurrentPage();
     }
 
@@ -127,13 +263,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const endIndex = Math.min(startIndex + videosPerPage, filteredVideos.length);
         const currentPageVideos = filteredVideos.slice(startIndex, endIndex);
 
-        // إضافة فئة التحميل
         videosContainer.classList.add('loading');
         
-        // إفراغ حاوية الفيديوهات
         videosContainer.innerHTML = '';
         
-        // إظهار أو إخفاء رسالة عدم وجود نتائج
         if (filteredVideos.length === 0) {
             noResultsMessage.classList.remove('d-none');
             paginationContainer.classList.add('d-none');
@@ -141,14 +274,12 @@ document.addEventListener('DOMContentLoaded', () => {
             noResultsMessage.classList.add('d-none');
             paginationContainer.classList.remove('d-none');
             
-            // إنشاء عناصر الفيديو للصفحة الحالية
             currentPageVideos.forEach((video) => {
                 const videoElement = createVideoElement(video);
                 videosContainer.appendChild(videoElement);
             });
         }
 
-        // محاكاة التحميل
         setTimeout(() => {
             videosContainer.classList.remove('loading');
         }, 300);
@@ -245,7 +376,6 @@ function toggleFavorite(video, button) {
         
         const totalPages = getTotalPages();
         
-        // إذا لم تكن هناك نتائج أو صفحة واحدة فقط، فلا نعرض التنقل بين الصفحات
         if (filteredVideos.length === 0 || totalPages <= 1) {
             return;
         }
@@ -353,7 +483,6 @@ function toggleFavorite(video, button) {
         });
     }
     
-    // وظيفة البحث
     function performSearch() {
         const query = searchInput.value.trim();
         searchTerm = query;
@@ -361,7 +490,6 @@ function toggleFavorite(video, button) {
         applyFilters();
     }
     
-    // الاستماع لأحداث البحث
     searchButton.addEventListener('click', performSearch);
     
     searchInput.addEventListener('keypress', (e) => {
@@ -371,7 +499,6 @@ function toggleFavorite(video, button) {
         }
     });
     
-    // إضافة حدث لحقل البحث للبحث أثناء الكتابة (اختياري)
     searchInput.addEventListener('input', () => {
         clearTimeout(searchInput.searchTimeout);
         searchInput.searchTimeout = setTimeout(performSearch, 500);
@@ -381,9 +508,7 @@ function toggleFavorite(video, button) {
         modalIframe.src = 'about:blank';
     });
 
-    // إنشاء أزرار التصنيفات
     createCategoryButtons();
     
-    // عرض جميع الفيديوهات عند التحميل
     displayVideosForCurrentPage();
 });

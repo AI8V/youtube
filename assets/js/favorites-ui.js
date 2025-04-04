@@ -68,16 +68,21 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     
     function updateFavoritesEmptyState() {
-        const favorites = window.favoritesManager.getFavorites();
-        const emptyMessage = document.getElementById('emptyFavoritesMessage');
-        
-        if (favorites.length === 0) {
-            favoritesContainer.innerHTML = '';
-            emptyMessage.classList.remove('d-none');
-        } else {
-            emptyMessage.classList.add('d-none');
-        }
+    const favorites = window.favoritesManager.getFavorites();
+    const emptyMessage = document.getElementById('emptyFavoritesMessage');
+    const clearButton = document.getElementById('clearFavoritesBtn');
+    
+    if (favorites.length === 0) {
+        favoritesContainer.innerHTML = '';
+        emptyMessage.classList.remove('d-none');
+        clearButton.disabled = true; // تعطيل الزر
+        // أو بدلاً من ذلك: clearButton.style.display = 'none'; // إخفاء الزر
+    } else {
+        emptyMessage.classList.add('d-none');
+        clearButton.disabled = false; // تفعيل الزر
+        // أو بدلاً من ذلك: clearButton.style.display = 'block'; // إظهار الزر
     }
+}
     
     function displayFavorites() {
         const favorites = window.favoritesManager.getFavorites();
@@ -101,10 +106,15 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     
     document.getElementById('clearFavoritesBtn').addEventListener('click', () => {
+    const favorites = window.favoritesManager.getFavorites();
+    
+    // إظهار مربع الحوار فقط إذا كانت هناك عناصر مفضلة للحذف
+    if (favorites.length > 0) {
         if (confirm('هل أنت متأكد من حذف جميع المفضلات؟')) {
             localStorage.removeItem('videoFavorites');
             window.favoritesManager.updateFavoritesCount();
             displayFavorites();
         }
-    });
+    }
+});
 });

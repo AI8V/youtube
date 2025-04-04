@@ -1,7 +1,7 @@
 # 📚 مكتبة الفيديوهات التعليمية
 
 <div align="center">
-  <img src="/api/placeholder/800/400" alt="صورة توضيحية للمشروع" />
+  <img src="https://scontent.faly2-1.fna.fbcdn.net/v/t39.30808-6/488246280_10235055470864353_549554543328250904_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=1_sYWyE11esQ7kNvwE_vhhI&_nc_oc=AdngkbaUS4vpY3N6ua7o0is_35LfiOnjKRUq67j4o2zFhlMqLJahC19DVqGLFjguhjI&_nc_zt=23&_nc_ht=scontent.faly2-1.fna&_nc_gid=ffaR88y-JnN3FVD5JSJbdA&oh=00_AYF9sut1D7AYRQjBCf0s7ELo4Ows_72BWUmcfBG4GDJ9qg&oe=67F50AD3" alt="صورة توضيحية للمشروع" />
   <p>منصة عربية متكاملة لعرض وتنظيم المحتوى التعليمي المرئي</p>
 </div>
 
